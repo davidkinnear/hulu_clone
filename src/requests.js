@@ -1,5 +1,7 @@
+//my key from tmdb
 const API_KEY = '4fd072605ff1aa6ae1c2fab6815b8d58';
 
+//getting the movies for each genre from the API
 export default {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
     fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
