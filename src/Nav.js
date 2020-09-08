@@ -3,6 +3,7 @@ import './Nav.css'
 import requests from './requests'
 
 function Nav({ setSelectedOption }) {
+//When user clicks each  nav title, the selectedOption state changes        
     return (
         <div className="nav">
             <h2 onClick={() => setSelectedOption(requests.fetchTrending)}>Trending</h2>
